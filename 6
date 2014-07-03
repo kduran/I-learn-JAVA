@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+public class calculator {
+	public static void main(String[] args){
+		System.out.println(" Aklindan bir sayi tut");
+		
+		Scanner bucky = new Scanner(System.in);
+		double fnum, snum,tnum, answer;
+		
+		System.out.println("Enter first num: ");
+		fnum = bucky.nextDouble();
+		
+		System.out.println(" onu iki ile carp");
+		System.out.println(" bana bir sayi soyle ve onu ekle ");
+		
+		System.out.println("Enter second num: ");
+		snum = bucky.nextDouble();
+		
+		System.out.println(" cikan sonucu ikiye bol");
+		
+		System.out.println(" cikan sonuctan tuttugun sayiyi cikar");
+		
+		System.out.println("Enter random and unnecessary num: ");
+		tnum = bucky.nextDouble();
+		
+		System.out.println(" cikan sonuc zaten ekranda ");
+		
+		answer = (((fnum * 2) + snum) / 2) - fnum;
+		
+		System.out.println(answer);
+		
+		System.out.println(" senden hep bir adim onde olacagim :D ");
+	}
+}
