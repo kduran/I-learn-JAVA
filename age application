@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class secondstudy {
+	public static void main(String[] args){
+	
+		Scanner input = new Scanner(System.in);
+		System.out.println( " what is your name?");
+		String name = input.nextLine();
+		System.out.println(" hello " + name);
+		int fnum, t ;
+		System.out.println(" When were you born? ");
+		fnum = input.nextShort();
+		t = 2014 - fnum;
+		System.out.println("you are " + t);
+		if ( t > 19 ) {
+			System.out.println(" You are older than Kursad ");
+		}
+		if ( t < 21 )	{
+			System.out.println(" You are younger than Murtaza ");
+		}
+		else if ( t > 45 )	{
+			System.out.println(" How is it going Emmi ?" + " What is there, what is not there? ");
+		}
+		
+		
+		
+	}
+
+}
